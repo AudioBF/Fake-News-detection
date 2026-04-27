@@ -29,13 +29,6 @@ Try it online — no setup required:
 
 **Best model saved at Epoch 3 · Val Accuracy: 100.00%**
 
-### Training History
-
-![Training and Validation Loss](training_history.png)
-
-Training loss drops from `0.009` → `0.0005` across 3 epochs. Validation loss converges to near-zero, confirming stable fine-tuning without overfitting.
-
----
 
 ## On Data Leakage — Investigation & Decision
 
