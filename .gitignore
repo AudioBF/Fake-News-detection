@@ -1,0 +1,8 @@
+best_model.pt
+fake_news_model/
+__pycache__/
+*.png
+*.pyc
+.env
+venv/
+.vscode/
