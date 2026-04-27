@@ -7,6 +7,15 @@ Served via a **Flask REST API** with a dark-themed web interface for interactive
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.12-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co)
 [![Flask](https://img.shields.io/badge/Flask-3.1-000000?style=flat&logo=flask&logoColor=white)](https://flask.palletsprojects.com)
+[![Live Demo](https://img.shields.io/badge/🤗%20Live%20Demo-Spaces-orange)](https://audiobf-fake-news-detection.hf.space)
+
+---
+
+## 🚀 Live Demo
+
+Try it online — no setup required:
+
+👉 **[https://audiobf-fake-news-detection.hf.space](https://audiobf-fake-news-detection.hf.space)**
 
 ---
 
@@ -20,6 +29,13 @@ Served via a **Flask REST API** with a dark-themed web interface for interactive
 
 **Best model saved at Epoch 3 · Val Accuracy: 100.00%**
 
+### Training History
+
+![Training and Validation Loss](training_history.png)
+
+Training loss drops from `0.009` → `0.0005` across 3 epochs. Validation loss converges to near-zero, confirming stable fine-tuning without overfitting.
+
+---
 
 ## On Data Leakage — Investigation & Decision
 
